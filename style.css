@@ -52,14 +52,14 @@ main p {
 
     max-width: 210px;
     margin-bottom: 30px;
-    color: var(black)
+    color: var(rgb(0, 0, 0))
 
 }
 /*Links*/
 .container > a {
     text-decoration: none;
     background-color:#D9D9D9;
-    color: black;
+    color: rgb(3, 3, 3);
     width: 320px;
     height: 60px;
     margin-bottom: 15px;
