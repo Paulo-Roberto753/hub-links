@@ -9,7 +9,7 @@
 /*Variáves para cores*/
 :root{
 
-    --Laranja: #B6482F;
+    --Laranja: #524d4a;
     --Braco: #D9D9D9;
     --cinza: #FFFFFF;
 }
@@ -21,5 +21,64 @@
     align-items: center;
 }
 body {
-    font-family: "K2D", sans-serif
+    font-family: "K2D", sans-serif;
+    background-color: var(--Laranja);
+}
+    /*Cabeçalho*/
+header img {
+
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    border-radius: 50%;    
+        /
+}
+/*Principal*/
+main{
+
+    text-align: center;
+}
+
+main h1 {
+    /*margin-top: 10px;
+    margin-bottom: 10px;*/
+    margin: 10px 0px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: white;
+}
+
+main p {
+
+    max-width: 210px;
+    margin-bottom: 30px;
+    color: var(black)
+
+}
+/*Links*/
+.container > a {
+    text-decoration: none;
+    background-color:#D9D9D9;
+    color: black;
+    width: 320px;
+    height: 60px;
+    margin-bottom: 15px;
+    text-align: center;
+    padding-top: 18px;
+    border-radius: 15px;
+
+
+}
+
+/*Rodapé*/
+footer {
+
+    margin-top: 20px;
+    
+}
+
+footer img {
+
+    margin: 0px 5px;
+
 }
